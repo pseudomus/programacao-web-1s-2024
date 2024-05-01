@@ -14,7 +14,18 @@
                 <h1>Ola mundo</h1>
                 <p>Integração backend frontend</p>
                 <p>Bem vindo {{nome}}</p>
-                <p></p>
+                <a href="contato.html">contate-nos</a>
+                    <form action="/dados" method="POST">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" id="endereco" name="endereco"><br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" id="telefone" name="telefone"><br>
+                        <label for="data">Data agendamento:</label>
+                        <input type="text" id="data" name="data"><br>
+                        <input type="submit" value="Enviar">
+                    </form>
         </div>
     </div>
 </body>
